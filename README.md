@@ -19,11 +19,12 @@ green, and amber), so color-coded tags remain distinguishable against the black 
 
 ## Installation
 
-Standard Notes loads themes from a hosted CSS URL.
+1. Open Standard Notes and go to **Preferences -> Plugins -> Install Custom Plugin**.
+2. Paste the raw CSS URL and confirm:
 
-1. Host `dist/dist.css` somewhere publicly accessible.
-2. Open Standard Notes and go to **Account menu -> Preferences -> Appearance**.
-3. Click **Install Theme**, paste the raw CSS URL, and confirm.
+```
+https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
+```
 
 ## Building from source
 
