@@ -1,0 +1,15 @@
+{
+  "identifier": "com.netrom.sn-theme-terminal-green",
+  "name": "Terminal Green",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A black and phosphor-green old-school terminal theme for Standard Notes.",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#000000",
+    "foreground_color": "#00ff41",
+    "border_color": "#00ff41"
+  },
+  "isDark": true
+}

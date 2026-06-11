@@ -1,0 +1,13 @@
+{
+  "name": "sn-theme-terminal-green",
+  "version": "1.0.0",
+  "sn": {
+    "main": "dist/dist.css"
+  },
+  "scripts": {
+    "build": "sass src/main.scss dist/dist.css --no-source-map --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
