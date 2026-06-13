@@ -23,7 +23,7 @@ green, and amber), so color-coded tags remain distinguishable against the black 
 2. Paste the raw CSS URL and confirm:
 
 ```
-https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
+https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json?v=1.0.3
 ```
 
 ## Building from source
