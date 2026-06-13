@@ -179,3 +179,10 @@
 :root .tags .tag > .menu:hover {
   opacity: 0.6;
 }
+
+:root #navigation .tag.selected,
+:root #navigation .tag:active,
+:root #navigation .tag:focus:not(.selected),
+:root #navigation .tag:hover:not(.selected) {
+  background-color: #003a0e;
+}
