@@ -3,7 +3,7 @@
   "name": "Terminal Green",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A black and phosphor-green old-school terminal theme for Standard Notes.",
   "url": "https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.css",
   "download_url": "https://github.com/netromdk/sn-theme-terminal-green/archive/master.zip",
@@ -12,7 +12,7 @@
   "thumbnail_url": "",
   "dock_icon": {
     "type": "circle",
-    "background_color": "#000000",
+    "background_color": "#00ff41",
     "foreground_color": "#00ff41",
     "border_color": "#00ff41"
   },
