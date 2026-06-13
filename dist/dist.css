@@ -11,7 +11,7 @@
   --danger-color: #ff3333; /* kept for readability: red                  */
   --border-color: #004400; /* borders/dividers: dark green               */
   /* -- Navigation (views / tags panel) ------------------------------------ */
-  --navigation-item-selected-background-color: #003a0e;
+  --navigation-item-selected-background-color: #004d12;
   /* -- Theme metadata ----------------------------------------------------- */
   --sn-stylekit-theme-type: dark;
   --sn-stylekit-theme-name: sn-terminal-green;
@@ -62,7 +62,7 @@
   --sn-stylekit-editor-background-color: var(--background-1);
   --sn-stylekit-editor-foreground-color: var(--foreground-1);
   /* -- Inputs ------------------------------------------------------------- */
-  --sn-stylekit-input-placeholder-color: var(--foreground-2);
+  --sn-stylekit-input-placeholder-color: #005a15;
   --sn-stylekit-input-border-color: var(--border-color);
   /* -- Scrollbars --------------------------------------------------------- */
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
@@ -79,15 +79,15 @@
   /* Default stylekit defines these as a light-gray ramp (#515357 -> #f9f9f9).
      Override with a dark-green ramp so UI components that reference them
      stay readable against the black background. */
-  --sn-stylekit-passive-color-0: #00aa29;
-  --sn-stylekit-passive-color-1: #007a1f;
-  --sn-stylekit-passive-color-2: #004d12;
-  --sn-stylekit-passive-color-3: #003a0e;
-  --sn-stylekit-passive-color-4: #0d1a0d;
+  --sn-stylekit-passive-color-0: #00dd33;
+  --sn-stylekit-passive-color-1: #003d14;
+  --sn-stylekit-passive-color-2: #002a0a;
+  --sn-stylekit-passive-color-3: #001a05;
+  --sn-stylekit-passive-color-4: #061006;
   --sn-stylekit-passive-color-4-opacity-variant: #00ff4112;
-  --sn-stylekit-passive-color-5: #0a150a;
-  --sn-stylekit-passive-color-6: #071007;
-  --sn-stylekit-passive-color-super-light: #050a05;
+  --sn-stylekit-passive-color-5: #030803;
+  --sn-stylekit-passive-color-6: #020502;
+  --sn-stylekit-passive-color-super-light: #010301;
   /* -- Accessory tint colors (tag/folder palette) ------------------------- */
   /* ANSI-terminal-inspired: keeps color variety for distinguishing tags     */
   --sn-stylekit-accessory-tint-color-1: #00aaff;
