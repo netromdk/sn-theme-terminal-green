@@ -27,10 +27,12 @@ green, and amber), so color-coded tags remain distinguishable against the black 
 https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
 ```
 
-After updating the theme source, purge the jsDelivr cache so Standard Notes picks up the changes:
+After publishing a new release, purge the jsDelivr cache so the update checker
+picks up the latest `ext.json`:
 
-- https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.min.css
 - https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
+
+(The CSS is served from an immutable version tag and does not need purging.)
 
 ## Building from source
 
