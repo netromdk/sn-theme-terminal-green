@@ -5,10 +5,10 @@
   "area": "themes",
   "version": "1.0.3",
   "description": "A black and phosphor-green old-school terminal theme for Standard Notes.",
-  "url": "https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.css?v=1.0.3",
+  "url": "https://raw.githubusercontent.com/netromdk/sn-theme-terminal-green/master/dist/dist.css",
   "download_url": "https://github.com/netromdk/sn-theme-terminal-green/archive/master.zip",
   "marketing_url": "https://github.com/netromdk/sn-theme-terminal-green",
-  "latest_url": "https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json?v=1.0.3",
+  "latest_url": "https://raw.githubusercontent.com/netromdk/sn-theme-terminal-green/master/ext.json",
   "thumbnail_url": "",
   "dock_icon": {
     "type": "circle",

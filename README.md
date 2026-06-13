@@ -11,7 +11,8 @@ A black-and-green Standard Notes theme inspired by old-school phosphor CRT termi
 | Primary text | Phosphor green | `#00ff41` |
 | Secondary text | Dimmer green | `#00aa29` |
 | Borders | Dark green | `#004400` |
-| Warning | Chartreuse | `#aaff00` |
+| Warning | Yellow chartreuse | `#ccff00` |
+| Navigation selected | Dark mid-green | `#003a0e` |
 | Danger | Red (kept for visibility) | `#ff3333` |
 
 Tag and folder tint colors follow ANSI terminal conventions (cyan, magenta, chartreuse, purple,
@@ -23,7 +24,7 @@ green, and amber), so color-coded tags remain distinguishable against the black 
 2. Paste the raw CSS URL and confirm:
 
 ```
-https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json?v=1.0.3
+https://raw.githubusercontent.com/netromdk/sn-theme-terminal-green/master/ext.json
 ```
 
 ## Building from source
