@@ -15,4 +15,4 @@ if [ ! -x node_modules/.bin/sass ]; then
 fi
 
 npm run build
-echo "Built: dist/dist.css"
+echo "Built: dist/dist.css and dist/dist.min.css"
