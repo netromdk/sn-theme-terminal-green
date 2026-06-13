@@ -7,9 +7,12 @@
   --highlight-color: #00ff41;  /* accents/hover: bright green                */
   --neutral-color: #007a1f;    /* neutral badges: muted green                */
   --success-color: #00ff41;    /* success state: bright green                */
-  --warning-color: #aaff00;    /* warnings: chartreuse                       */
+  --warning-color: #ccff00;    /* warnings: yellow chartreuse                */
   --danger-color: #ff3333;     /* kept for readability: red                  */
   --border-color: #004400;     /* borders/dividers: dark green               */
+
+  /* -- Navigation (views / tags panel) ------------------------------------ */
+  --navigation-item-selected-background-color: #003a0e;
 
   /* -- Theme metadata ----------------------------------------------------- */
   --sn-stylekit-theme-type: dark;
