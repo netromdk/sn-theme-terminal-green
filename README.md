@@ -24,8 +24,13 @@ green, and amber), so color-coded tags remain distinguishable against the black 
 2. Paste the raw CSS URL and confirm:
 
 ```
-https://raw.githubusercontent.com/netromdk/sn-theme-terminal-green/master/ext.json
+https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
 ```
+
+After updating the theme source, purge the jsDelivr cache so Standard Notes picks up the changes:
+
+- https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.css
+- https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
 
 ## Building from source
 
