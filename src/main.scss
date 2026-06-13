@@ -129,15 +129,28 @@
   color: var(--foreground-1) !important;
 }
 
-/* CodeMirror syntax highlighting */
-:root .cm-s-default .cm-variable-3,
-:root .cm-s-default .cm-type {
-  color: var(--success-color) !important;
-}
-
-:root .cm-s-default .cm-variable-3 {
-  color: #00e639;
-}
+/* Monochrome green brightness ramp for CodeMirror syntax highlighting */
+:root .cm-s-default .cm-keyword    { color: var(--foreground-1); font-weight: bold; }
+:root .cm-s-default .cm-atom       { color: var(--foreground-2); }
+:root .cm-s-default .cm-number     { color: #00cc33; }
+:root .cm-s-default .cm-def        { color: var(--foreground-1); }
+:root .cm-s-default .cm-variable   { color: var(--foreground-2); }
+:root .cm-s-default .cm-variable-2 { color: #008020; }
+:root .cm-s-default .cm-variable-3 { color: #00e639; }
+:root .cm-s-default .cm-type       { color: var(--foreground-1); font-weight: bold; }
+:root .cm-s-default .cm-comment    { color: #005a15; }
+:root .cm-s-default .cm-string     { color: #00cc33; }
+:root .cm-s-default .cm-string-2   { color: #008020; }
+:root .cm-s-default .cm-meta       { color: var(--foreground-2); }
+:root .cm-s-default .cm-qualifier  { color: #008020; }
+:root .cm-s-default .cm-builtin    { color: var(--foreground-1); }
+:root .cm-s-default .cm-bracket    { color: var(--foreground-1); font-weight: bold; }
+:root .cm-s-default .cm-tag        { color: var(--foreground-1); }
+:root .cm-s-default .cm-attribute  { color: #00cc33; }
+:root .cm-s-default .cm-link       { color: var(--foreground-1); text-decoration: underline; }
+:root .cm-s-default .cm-error      { color: var(--danger-color); }
+:root .cm-s-default .cm-operator   { color: var(--foreground-1); font-weight: bold; }
+:root .cm-s-default .cm-property   { color: #00cc33; }
 
 /* Selection: dark text on bright green background */
 :root ::selection {
