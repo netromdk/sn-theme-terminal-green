@@ -29,7 +29,7 @@ https://cdn.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
 
 After updating the theme source, purge the jsDelivr cache so Standard Notes picks up the changes:
 
-- https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.css
+- https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/dist/dist.min.css
 - https://purge.jsdelivr.net/gh/netromdk/sn-theme-terminal-green@master/ext.json
 
 ## Building from source

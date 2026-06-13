@@ -20,6 +20,7 @@
       'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
       'Helvetica Neue', sans-serif;
   --sn-stylekit-monospace-font: 'Courier New', Courier, 'Lucida Console', monospace;
+  --sn-stylekit-editor-font-family: var(--sn-stylekit-monospace-font);
   /* -- Layout ------------------------------------------------------------- */
   --sn-stylekit-general-border-radius: 0;
   /* -- Info / accent ------------------------------------------------------ */
@@ -27,6 +28,13 @@
   --sn-stylekit-info-contrast-color: #000000;
   --sn-stylekit-info-color-darkened: #003d14;
   --sn-stylekit-info-backdrop-color: #00ff4120;
+  /* -- Component framework ------------------------------------------------ */
+  --sn-component-foreground-color: var(--foreground-1);
+  --sn-component-background-color: var(--background-1);
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: var(--border-color);
+  --sn-component-inner-border-color: var(--foreground-2);
+  --sn-stylekit-danger-light-color: #661111;
   /* -- Semantic status colors --------------------------------------------- */
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-2);
@@ -41,7 +49,7 @@
   --sn-stylekit-background-color: var(--background-1);
   --sn-stylekit-foreground-color: var(--foreground-1);
   --sn-stylekit-border-color: var(--border-color);
-  --sn-stylekit-paragraph-text-color: var(--foreground-1);
+  --sn-stylekit-paragraph-text-color: #00cc33;
   --sn-stylekit-contrast-background-color: var(--background-2);
   --sn-stylekit-contrast-foreground-color: var(--foreground-1);
   --sn-stylekit-contrast-border-color: var(--border-color);
@@ -98,14 +106,94 @@
   color: var(--foreground-1) !important;
 }
 
-/* CodeMirror syntax highlighting */
-:root .cm-s-default .cm-variable-3,
-:root .cm-s-default .cm-type {
-  color: var(--success-color) !important;
+/* Monochrome green brightness ramp for CodeMirror syntax highlighting */
+:root .cm-s-default .cm-keyword {
+  color: var(--foreground-1);
+  font-weight: bold;
+}
+
+:root .cm-s-default .cm-atom {
+  color: var(--foreground-2);
+}
+
+:root .cm-s-default .cm-number {
+  color: #00cc33;
+}
+
+:root .cm-s-default .cm-def {
+  color: var(--foreground-1);
+}
+
+:root .cm-s-default .cm-variable {
+  color: var(--foreground-2);
+}
+
+:root .cm-s-default .cm-variable-2 {
+  color: #008020;
 }
 
 :root .cm-s-default .cm-variable-3 {
   color: #00e639;
+}
+
+:root .cm-s-default .cm-type {
+  color: var(--foreground-1);
+  font-weight: bold;
+}
+
+:root .cm-s-default .cm-comment {
+  color: #005a15;
+}
+
+:root .cm-s-default .cm-string {
+  color: #00cc33;
+}
+
+:root .cm-s-default .cm-string-2 {
+  color: #008020;
+}
+
+:root .cm-s-default .cm-meta {
+  color: var(--foreground-2);
+}
+
+:root .cm-s-default .cm-qualifier {
+  color: #008020;
+}
+
+:root .cm-s-default .cm-builtin {
+  color: var(--foreground-1);
+}
+
+:root .cm-s-default .cm-bracket {
+  color: var(--foreground-1);
+  font-weight: bold;
+}
+
+:root .cm-s-default .cm-tag {
+  color: var(--foreground-1);
+}
+
+:root .cm-s-default .cm-attribute {
+  color: #00cc33;
+}
+
+:root .cm-s-default .cm-link {
+  color: var(--foreground-1);
+  text-decoration: underline;
+}
+
+:root .cm-s-default .cm-error {
+  color: var(--danger-color);
+}
+
+:root .cm-s-default .cm-operator {
+  color: var(--foreground-1);
+  font-weight: bold;
+}
+
+:root .cm-s-default .cm-property {
+  color: #00cc33;
 }
 
 /* Selection: dark text on bright green background */
@@ -114,7 +202,7 @@
   color: var(--background-1) !important;
 }
 
-:root #editor-menu-bar > div > div.sk-app-bar-item.selected > div.sk-menu-panel.dropdown-menu.ng-scope > div:nth-child(1) > menu-row:nth-child(7) > div > div > div > div > div {
+:root .sk-app-bar-item.selected .sk-menu-panel menu-row .danger-item {
   color: var(--danger-color);
 }
 
