@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-terminal-green",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "sn": {
     "main": "dist/dist.min.css"
   },
